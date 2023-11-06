@@ -8,6 +8,8 @@ public class PRUEBA {
         b = 6;
         int r = a +b;
         System.out.println(r);
+        System.out.println("Hola");
+        System.out.println(a-b);
     }
     
 }
