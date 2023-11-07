@@ -76,7 +76,8 @@ public class TransfInfPost {
             j++;
         }
 
-    }
+    }    //2+5*3^2-7
+    //Hola
     public int TransformarExpresionPosfija() {
         Pila pilResultado = new Pila(ncar);
         for (int i = 0; i < ncar; i++) {
