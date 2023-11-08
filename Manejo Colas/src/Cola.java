@@ -1,7 +1,7 @@
 
 public class Cola {
 
-     Object[] V;
+    Object[] V;
     int tam, ne, inicio, fin;
 
     public Cola(int t) {
