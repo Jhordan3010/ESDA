@@ -302,7 +302,7 @@ public class Formulario extends javax.swing.JFrame {
             Producto producto = (Producto) aux;
             this.txtaResultado.setText("[ " + producto.getCodigo() + " " + producto.getNombre() + " " + producto.getCantidad() + " " + producto.getPrecio() + " " + producto.getMinimo() + "]");
         } else {
-            this.txtaResultado.setText("Se ha desencolado el producto");
+            this.txtaResultado.setText("No se ha desencolado el producto");
         }
     }//GEN-LAST:event_btnDesencolarActionPerformed
 
