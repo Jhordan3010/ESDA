@@ -33,21 +33,21 @@ public class ListaLineal {
     }
 
     public Nodo RetirarInicio() {
-        
+
         Nodo aux = inicio;
         if (inicio != null) {
             inicio = inicio.getSig();
         }
         return aux;
     }
-    
+
     public String Reporte() {
         String r = "";
         Nodo aux = inicio;
         while (aux != null) {
             Producto s = (Producto) aux.getInfo();
-            r += "Codigo: "+s.getCodigo() + "\t" +"Nombre: "+ s.getNombre() + "\t"
-                    + "Cantidad: "+s.getCantidad() + "\t" + "Precio: "+s.getPrecio() + "\t" +"Minimo: "+ s.getMinimo() + "\n\n";
+            r += "Codigo: " + s.getCodigo() + "\t" + "Nombre: " + s.getNombre() + "\t"
+                    + "Cantidad: " + s.getCantidad() + "\t" + "Precio: " + s.getPrecio() + "\t" + "Minimo: " + s.getMinimo() + "\n\n";
             // Asumiendo que hay un método getNombre() en la clase Producto
             aux = aux.getSig();
         }
