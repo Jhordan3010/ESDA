@@ -39,6 +39,10 @@ public class Formulario extends javax.swing.JFrame {
         txtCantida = new javax.swing.JTextField();
         txtPrecio = new javax.swing.JTextField();
         txtMinima = new javax.swing.JTextField();
+        btnIngresarInicio = new javax.swing.JButton();
+        btnIngresarFinal = new javax.swing.JButton();
+        btnReporteInicio = new javax.swing.JButton();
+        btnReporte = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -63,6 +67,14 @@ public class Formulario extends javax.swing.JFrame {
                 txtCantidadActionPerformed(evt);
             }
         });
+
+        btnIngresarInicio.setText("Ingresar Inicio");
+
+        btnIngresarFinal.setText("Ingresar Final");
+
+        btnReporteInicio.setText("Reporte Inicio");
+
+        btnReporte.setText("Reporte ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -97,7 +109,11 @@ public class Formulario extends javax.swing.JFrame {
                                     .addComponent(txtPrecio, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(txtCantida, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtCantidad, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                                    .addComponent(txtCantidad, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(btnIngresarInicio)
+                            .addComponent(btnIngresarFinal)
+                            .addComponent(btnReporteInicio)
+                            .addComponent(btnReporte))))
                 .addContainerGap(148, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -129,7 +145,15 @@ public class Formulario extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8)
                     .addComponent(txtMinima, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(174, Short.MAX_VALUE))
+                .addGap(36, 36, 36)
+                .addComponent(btnIngresarInicio)
+                .addGap(18, 18, 18)
+                .addComponent(btnIngresarFinal)
+                .addGap(18, 18, 18)
+                .addComponent(btnReporteInicio)
+                .addGap(18, 18, 18)
+                .addComponent(btnReporte)
+                .addContainerGap(57, Short.MAX_VALUE))
         );
 
         pack();
@@ -175,6 +199,10 @@ public class Formulario extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnIngresarFinal;
+    private javax.swing.JButton btnIngresarInicio;
+    private javax.swing.JButton btnReporte;
+    private javax.swing.JButton btnReporteInicio;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

@@ -60,6 +60,10 @@
                                   <Component id="txtCantidad" min="-2" pref="75" max="-2" attributes="0"/>
                               </Group>
                           </Group>
+                          <Component id="btnIngresarInicio" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnIngresarFinal" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnReporteInicio" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnReporte" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -101,7 +105,15 @@
                   <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtMinima" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="174" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="btnIngresarInicio" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnIngresarFinal" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnReporteInicio" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnReporte" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="57" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -159,6 +171,26 @@
     <Component class="javax.swing.JTextField" name="txtPrecio">
     </Component>
     <Component class="javax.swing.JTextField" name="txtMinima">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnIngresarInicio">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingresar Inicio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnIngresarFinal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ingresar Final"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnReporteInicio">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reporte Inicio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnReporte">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reporte "/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
