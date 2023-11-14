@@ -41,15 +41,16 @@ public class ListaLineal {
         return aux;
     }
     
-     public String ReporteInicio() {
-        StringBuilder reporte = new StringBuilder();
-        Nodo iterador = inicio;
-
-        while (iterador != null) {
-            reporte.append(((Producto) iterador.getInfo()).toString()).append("\n");
-            iterador = iterador.getSig();
+    public String Reporte() {
+        String r = "";
+        Nodo aux = inicio;
+        while (aux != null) {
+            Producto s = (Producto) aux.getInfo();
+            r += "Codigo: "+s.getCodigo() + "\t" +"Nombre: "+ s.getNombre() + "\t"
+                    + "Cantidad: "+s.getCantidad() + "\t" + "Precio: "+s.getPrecio() + "\t" +"Minimo: "+ s.getMinimo() + "\n\n";
+            // Asumiendo que hay un método getNombre() en la clase Producto
+            aux = aux.getSig();
         }
-
-        return reporte.toString();
+        return r;
     }
 }
