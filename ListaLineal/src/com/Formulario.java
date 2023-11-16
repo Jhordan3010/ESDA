@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package com;
 
-/**
- *
- * @author jhord
- */
 public class Formulario extends javax.swing.JFrame {
 
     /**
@@ -203,7 +195,7 @@ public class Formulario extends javax.swing.JFrame {
         // TODO add your handling code here:
         String cod = this.txtCodigo.getText();
         String nombre = this.txtNombre.getText();
-        int cantidad = Integer.parseInt(this.txtCodigo.getText());
+        int cantidad = Integer.parseInt(this.txtCantida.getText());
         double precio = Double.parseDouble(this.txtPrecio.getText());
         int minimo = Integer.parseInt(this.txtMinima.getText());
         Producto p = new Producto(cod, nombre, cantidad, precio, minimo);

@@ -17,7 +17,7 @@ public class Producto {
 
     public String getCodigo() {
         return codigo;
-    }   
+    }
 
     public void setCodigo(String codigo) {
         this.codigo = codigo;
@@ -54,4 +54,6 @@ public class Producto {
     public void setMinimo(int minimo) {
         this.minimo = minimo;
     }
+
+    
 }
