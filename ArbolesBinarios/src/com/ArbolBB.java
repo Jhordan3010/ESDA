@@ -14,7 +14,7 @@ public class ArbolBB {
         String res= "";
         if (raiz == null) {
             raiz = nuevo;
-            res = "Nod Raiz Ingresado";
+            res = "Nodo Raiz Ingresado";
         }else{
             int r;
             NodoABB aux = raiz;

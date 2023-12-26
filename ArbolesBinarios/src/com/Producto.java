@@ -55,4 +55,7 @@ public class Producto {
     public void setMinimo(int minimo) {
         this.minimo = minimo;
     }
+    public String Imprimir() {
+        return "\n Codigo: " + this.codigo + "\n Nombre: " + this.nombre + "\n Cantidad: " + this.cantidad + "\n Precio: " + this.precio + "\n Minimo: " + this.minimo;
+    }
 }
