@@ -1,13 +1,39 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com;
-
-/**
- *
- * @author jhord
- */
 public class NodoABB {
+    private Object info;
+    private NodoABB hijoIzq;
+    private NodoABB hijoDer;
     
+    public NodoABB(Object info){
+        this.info = info;
+    }
+    
+    @Override
+    public String toString() {
+        return info.toString();
+    }
+
+    public Object getInfo() {
+        return info;
+    }
+
+    public void setInfo(Object info) {
+        this.info = info;
+    }
+
+    public NodoABB getHijoIzq() {
+        return hijoIzq;
+    }
+
+    public void setHijoIzq(NodoABB hijoIzq) {
+        this.hijoIzq = hijoIzq;
+    }
+
+    public NodoABB getHijoDer() {
+        return hijoDer;
+    }
+
+    public void setHijoDer(NodoABB hijoDer) {
+        this.hijoDer = hijoDer;
+    }
 }
