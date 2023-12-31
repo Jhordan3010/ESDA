@@ -31,7 +31,7 @@ public class ArbolBB {
                 }else if (r > 0) {
                     if (aux.getHijoDer() == null) {
                         aux.setHijoDer(nuevo);
-                        res = "Nodo gijo Derecho ingresado correctamente";
+                        res = "Nodo hijo Derecho ingresado correctamente";
                         break;
                     }else{
                         aux = aux.getHijoDer();
