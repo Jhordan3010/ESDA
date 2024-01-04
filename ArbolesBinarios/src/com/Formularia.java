@@ -48,7 +48,7 @@ public class Formularia extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Estructura de Datos Lista Lineal");
+        jLabel1.setText("Arboles Binarios ");
 
         jLabel2.setText("Realizado por: Jhordan Huera");
 
